@@ -1,6 +1,27 @@
-# Folders
+# Virtual environments
+.venv/
+venv/
+env/
 
-__pycache__
-.venv
-.vscode
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+data/
+
+# Logs and local databases
+airflow/logs/
+airflow/airflow.db
+*.sqlite
+
+# Models
+*.pkl
+*.pt
+*.h5
+
+# Environment and credentials
 .env
+.dbt/
+
+.md

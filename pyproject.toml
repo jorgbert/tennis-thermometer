@@ -1,0 +1,16 @@
+[project]
+name = "tennis-thermometer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=2.9.0",
+    "dbt-bigquery>=1.8.0",
+    "fastapi>=0.139.0",
+    "pandas>=3.0.3",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "uvicorn>=0.49.0",
+    "xgboost>=3.3.0",
+]
